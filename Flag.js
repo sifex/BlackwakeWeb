@@ -50,7 +50,7 @@ var clothFunction = plane(restDistance * xSegs, restDistance * ySegs);
 
 var cloth = new Cloth(xSegs, ySegs);
 
-var GRAVITY = 200 * 1.4; //
+var GRAVITY = 50 * 1.4; //
 var gravity = new THREE.Vector3( 0, -GRAVITY, 0 ).multiplyScalar(MASS);
 
 
